@@ -6,7 +6,7 @@
 
 - Name: 제갈현빈
 - Email: Ij941212@naver.com
--포트폴리오: https://jegalhb.github.io/portfolio/
+-포트폴리오: https://jegalhb.github.io/portfolio
 -GitHub: https://github.com/jegalhb
 -프로젝트 저장소: https://github.com/jegalhb/portfolio
 - 지원 방향: Java 백엔드 / Java 풀스택 신입 개발자
