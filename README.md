@@ -6,11 +6,10 @@
 
 - Name: 제갈현빈
 - Email: Ij941212@naver.com
-- Portfolio URL: https://github.com/jegalhb/portfolio/`
+- 포트폴리오: https://jegalhb.github.io/portfolio/
+GitHub: https://github.com/jegalhb
 - GitHub: `https://github.com/[GitHub-ID]`
 - 지원 방향: Java 백엔드 / Java 풀스택 신입 개발자
-
-> 공개 포트폴리오에는 상세 주소와 휴대전화 번호를 넣지 않는 것을 권장합니다. 이력서 본문에는 기재하되, 외부 공개 링크에는 이메일과 GitHub 정도만 노출하는 방식이 안전합니다.
 
 ## About Me
 
@@ -84,7 +83,7 @@ SMU8 티켓팅 프로젝트는 현재 Spring Boot와 MySQL 기반의 인증, 예
 - 설명: Java 학습 내용을 구조화하여 개념을 저장하고 검색할 수 있도록 구성한 개인 프로젝트입니다. 순수 Java 기반으로 데이터 구조와 검색 흐름을 정리하며 Java 문법, 클래스 구조, 검색 로직 구현 경험을 쌓았습니다.
 - 기술: Java, Swing GUI, Search Logic, File/Data Structure
 
-### 진로설계 서비스 페이지
+### 진로설계 서비스 프로젝트
 
 - 설명: 레벤슈타인 디스턴스 알고리즘을 활용하여 입력 키워드와 유사한 결과를 추천하는 흐름을 실험한 프로젝트입니다. 문자열 유사도 계산과 사용자 입력 기반 추천 흐름을 학습했습니다.
 - 기술: Java, Levenshtein Distance, Search/Recommendation Logic
