@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>제갈현빈 | Java Full-Stack Developer Portfolio</title>
+  <style>
+    :root { --bg:#f7f8fa; --card:#ffffff; --ink:#22262e; --muted:#626b7a; --primary:#7c3aed; --accent:#12b886; --line:#e5e7eb; }
+    * { box-sizing:border-box; } body { margin:0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif; background:var(--bg); color:var(--ink); line-height:1.72; }
+    .hero { background:linear-gradient(135deg,#23262d,#353944); color:white; padding:72px 24px; } .wrap { max-width:1080px; margin:0 auto; }
+    h1 { font-size:46px; margin:0 0 10px; letter-spacing:-0.03em; } h2 { font-size:28px; margin:0 0 18px; letter-spacing:-0.02em; } h3 { font-size:20px; margin:22px 0 8px; }
+    .subtitle { font-size:20px; max-width:840px; color:#e9eef5; } .badge-row { display:flex; flex-wrap:wrap; gap:10px; margin-top:26px; }
+    .badge { background:rgba(255,255,255,.12); border:1px solid rgba(255,255,255,.2); padding:8px 12px; border-radius:999px; font-size:14px; }
+    section { padding:38px 24px; } .card { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:28px; box-shadow:0 10px 30px rgba(15,23,42,.05); margin-bottom:18px; }
+    .grid { display:grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap:18px; } .skills { display:grid; grid-template-columns:180px 1fr; gap:8px 20px; }
+    .label { font-weight:800; color:var(--primary); } .muted { color:var(--muted); } ul { padding-left:22px; margin:8px 0; } li { margin:5px 0; }
+    .highlight { border-left:5px solid var(--primary); padding-left:18px; } .plan { border-left:5px solid var(--accent); padding-left:18px; }
+    .footer { padding:34px 24px 60px; color:var(--muted); } a { color:var(--primary); } code { background:#f1f5f9; padding:2px 5px; border-radius:6px; }
+    @media (max-width:760px) { h1 {font-size:34px;} .grid { grid-template-columns:1fr; } .skills {grid-template-columns:1fr;} }
+  </style>
+</head>
+<body>
+  <header class="hero"><div class="wrap">
+    <h1>제갈현빈</h1>
+    <div class="subtitle">요구사항을 화면설계서와 데이터 흐름으로 분해하고, AI를 보조 도구로 활용해 기술적 근거를 확인하며 구현하는 신입 개발자</div>
+    <div class="badge-row"><span class="badge">Java</span><span class="badge">Spring Boot</span><span class="badge">React</span><span class="badge">TypeScript</span><span class="badge">MySQL</span><span class="badge">JWT/Security</span><span class="badge">Figma</span></div>
+  </div></header>
+  <section><div class="wrap">
+    <div class="card highlight"><h2>About</h2><p>Java 풀스택 개발자로 성장하기 위해 KOSMO 국비지원 자바 풀스택 개발자 과정을 수강하며 Java, JavaScript, React, TypeScript, Spring Boot, MySQL 기반 웹 개발을 학습하고 있습니다. 대학에서는 발명특허 분야를 학습하며 C, Python, Arduino 기초 코딩과 기술 분석 경험을 쌓았고, 세계 발명 관련 대회에서 팀원들과 함께 금상 2회를 수상했습니다. 현재는 SMU8 티켓팅 홈페이지 프로젝트를 통해 사용자/관리자 UI, 인증/권한 분기, 예매 흐름, 좌석 선택, 결제 프로세스, 데이터베이스 설계, 고트래픽 제어 포인트 분석까지 경험하고 있습니다.
+</p><p class="muted">Email: Ij941212@naver.com / GitHub: https://github.com/[GitHub-ID]</p></div>
+    <div class="grid">
+      <div class="card"><h3>요구사항 우선</h3><p>AI가 제시한 코드보다 먼저 화면설계서와 Description/Check 내용을 기준으로 고객이 원하는 기능과 흐름을 파악합니다.</p></div>
+      <div class="card"><h3>기술적 근거 확인</h3><p>REST API 설계, 인증/인가 구조, 계층 분리, DTO 분리 등 실제 개발자들이 문제를 해결하기 위해 정리해 온 원칙과 사례를 확인하며 구현합니다.</p></div>
+      <div class="card"><h3>보안과 예외 처리</h3><p>JWT role claim, Spring Security 인증 흐름, 사용자/관리자 권한 분기, 예외 메시지, 기존 기능 보존 범위를 함께 고려합니다.</p></div>
+      <div class="card"><h3>AI 활용 방식</h3><p>AI를 단순 코드 생성 도구로 의존하지 않고, 구현 방향을 검토하고 대안을 비교하는 보조 도구로 활용합니다.</p></div>
+    </div>
+  </div></section>
+  <section><div class="wrap">
+    <div class="card"><h2>Main Project: SMU8 Ticketing Website</h2>
+<p>SMU8 티켓팅 홈페이지 프로젝트는 공연 예매 서비스를 주제로 사용자와 관리자 화면을 구현하고, 티켓팅 서비스 특성상 특정 시간대에 트래픽이 집중되는 상황을 고려하여 확장하고 있는 팀 프로젝트입니다. 현재는 Redis를 적용하기 전 단계로 Spring Boot와 MySQL 기반 구조에서 인증, 예매 흐름, 좌석 선택, 결제 프로세스의 기본 구조를 정리하고 있습니다. 이후 Redis를 활용한 대기열, 좌석 임시 선점, rate limit, refresh token blacklist 등을 적용하여 처리 성능과 안정성을 비교할 계획입니다.
+</p><h3>주요 역할</h3><ul><li>Figma를 활용하여 사용자/관리자 화면설계서, 정보구조도, 화면 흐름도, User Flow 작성</li><li>React와 TypeScript 기반 사용자 메인, 공연 검색, 예매중인공연, 예매임박공연, 공연 상세, 마이페이지, 관리자 공연장 관리 UI 구현</li><li>예매 대기열, 좌석 선택, 가격 선택, 결제, 예매 완료 흐름에 필요한 Mock Data와 TypeScript 타입 정의</li><li>공연 검색 Mock Data 통합 및 예매중인 공연/예매임박 공연 필터링, 정렬, 페이지네이션 구조 개선</li><li>URL query parameter 기반 페이지네이션 훅과 통합 검색 훅 구현</li><li>Spring Boot Controller, Service, Repository, DTO 계층 구조 분석 및 HTTP request/response 분리 기준 정리</li><li>JWT role claim을 활용한 일반 사용자/관리자 권한 구분 로그인 흐름 구현</li><li>Redis 적용 전 대기열, 좌석 선점, 동시성 제어, 트래픽 폭주 제어 포인트 분석</li><li>MySQL 기반 ERD 및 IR 설계, 카카오맵 API 백엔드 연동 구조 구현</li></ul></div><div class="card"><h2>Skill Stack</h2><div class="skills"><div class="label">Programming Languages</div><div>Java, JavaScript, TypeScript, HTML5, CSS3, SQL, Python, C</div><div class="label">Framework / Library</div><div>React, React Router, Spring Boot</div><div class="label">Server</div><div>Spring Boot, REST API, Spring Security, JWT, 외부 API 연동 구조, Kakao Map API 백엔드 연동</div><div class="label">Tooling / DevOps</div><div>Git, GitHub, IntelliJ IDEA, VS Code, npm, Vite, Figma, PowerShell, Git Bash</div><div class="label">Data Base</div><div>MySQL, ERD, IR, 정규화, JOIN, Transaction, Index</div><div class="label">Environment(OS)</div><div>Windows, Linux 기초</div><div class="label">ETC</div><div>화면설계서, 정보구조도, 화면 흐름도, User Flow, 요구사항 분석, REST API 설계 이해, MVC 패턴, DTO/VO 분리, Controller-Service-Repository 구조, Mock Data 테스트 환경, URL parameter 페이지네이션, React Hook 리팩토링, JWT 권한 분기, Spring Security 인증 흐름, 예외 처리 및 보안 흐름 검토, 대기열·좌석 선점·동시성·트래픽 제어 포인트 분석, README 문서화</div></div></div><div class="card plan"><h2>Current Stage & Redis Expansion Plan</h2><p>SMU8 티켓팅 프로젝트는 현재 Spring Boot와 MySQL 기반의 인증, 예매 흐름, 좌석 선택, 결제 프로세스 구조를 정리하는 단계입니다. 이후 Redis를 적용하여 대기열 처리, 좌석 임시 선점, rate limit, refresh token blacklist 기능을 구현하고, Redis 적용 전후의 처리 성능과 안정성을 비교할 계획입니다. 이를 통해 단순 CRUD 중심의 웹 프로젝트를 넘어, 티켓팅 서비스에서 요구되는 고트래픽 제어와 동시성 문제를 이해하는 방향으로 확장하고자 합니다.
+</p></div><div class="grid"><div class="card"><h3>JAVA WIKI</h3><p>Java 학습 내용을 구조화하여 개념을 저장하고 검색할 수 있도록 구성한 개인 프로젝트입니다. 순수 Java 기반으로 데이터 구조와 검색 흐름을 정리하며 Java 문법, 클래스 구조, 검색 로직 구현 경험을 쌓았습니다.</p><p><b>Tech:</b> Java, Swing GUI, Search Logic, File/Data Structure</p></div><div class="card"><h3>진로설계 서비스 페이지</h3><p>레벤슈타인 디스턴스 알고리즘을 활용하여 입력 키워드와 유사한 결과를 추천하는 흐름을 실험한 프로젝트입니다. 문자열 유사도 계산과 사용자 입력 기반 추천 흐름을 학습했습니다.</p><p><b>Tech:</b> Java, Levenshtein Distance, Search/Recommendation Logic</p></div></div></div></section><footer class="footer"><div class="wrap">이력서 포트폴리오 칸 예시: https://[GitHub-ID].github.io/[portfolio-repo-name]/</div></footer></body></html>
