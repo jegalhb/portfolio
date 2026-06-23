@@ -6,7 +6,7 @@
 
 - Name: 제갈현빈
 - Email: Ij941212@naver.com
--포트폴리오: https://jegalhb.github.io/portfolio
+-포트폴리오: https://jegalhb.github.io/portfolio/
 -GitHub: https://github.com/jegalhb
 -프로젝트 저장소: https://github.com/jegalhb/portfolio
 - 지원 방향: Java 백엔드 / Java 풀스택 신입 개발자
@@ -97,7 +97,8 @@ SMU8 티켓팅 프로젝트는 현재 Spring Boot와 MySQL 기반의 인증, 예
 ## Resume Portfolio Field Example
 
 ```text
-포트폴리오: https://[GitHub-ID].github.io/[portfolio-repo-name]/
-GitHub: https://github.com/[GitHub-ID]
-프로젝트 저장소: https://github.com/[GitHub-ID]/smu8-ticketing
+
+포트폴리오: https://jegalhb.github.io/portfolio/
+GitHub: https://github.com/jegalhb
+프로젝트 저장소: https://github.com/jegalhb/portfolio
 ```
